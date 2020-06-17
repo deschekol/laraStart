@@ -4,8 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
   <title>AdminLTE 3 | Dashboard</title>
-  
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">  
   <link rel="stylesheet" href="{{ asset('css/app.css') }}">
   
 </head>
@@ -71,13 +74,13 @@
                with font-awesome or any other icon font library -->
 
           <li class="nav-item">
-            <a href="pages/widgets.html" class="nav-link">
+            <router-link to="/dashboard" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
                 <span class="right badge badge-danger">New</span>
               </p>
-            </a>
+            </router-link>
           </li>
 
           <li class="nav-item has-treeview menu-open">
@@ -143,19 +146,19 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <router-link to="/profile" class="nav-link">
               <i class="nav-icon fas fa-user-alt"></i>
               <p>
                 Profile
                 <span class="right badge badge-danger">New</span>
               </p>
-            </a>
+            </router-link>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-power-off"></i>
               <p>
-                Profile
+                Logout
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>
@@ -177,7 +180,7 @@
     <section class="content">
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
-
+        <router-view></router-view>
         <!-- /.row (main row) -->
       </div><!-- /.container-fluid -->
     </section>
