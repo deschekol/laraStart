@@ -33,3 +33,7 @@ $fa-font-path: "../webfonts";
       content: fa-content($fa-var-twitter);
     }
   }
+  .router-link-exact-active {
+      background-color: #007bff!important;
+      color: #ffffff!important;
+  }

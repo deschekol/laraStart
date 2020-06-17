@@ -6,7 +6,7 @@
                     <div class="card-header">Profile Component</div>
 
                     <div class="card-body">
-                        I'm an Profile component.
+                        I'm a Profile component.
                     </div>
                 </div>
             </div>

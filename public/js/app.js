@@ -37575,7 +37575,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _vm._v(
-                "\n                    I'm an Dashboard component.\n                "
+                "\n                    I'm a Dashboard component.\n                "
               )
             ])
           ])
@@ -37669,7 +37669,7 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _vm._v(
-                "\n                    I'm an Profile component.\n                "
+                "\n                    I'm a Profile component.\n                "
               )
             ])
           ])
@@ -52903,6 +52903,7 @@ var routes = [{
   component: __webpack_require__(/*! ./components/Profile.vue */ "./resources/js/components/Profile.vue")["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
+  mode: 'history',
   routes: routes // short for `routes: routes`
 
 });
