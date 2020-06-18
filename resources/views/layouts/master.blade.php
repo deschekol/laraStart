@@ -78,7 +78,6 @@
               <i class="nav-icon fas fa-tachometer-alt blue"></i>
               <p>
                 Dashboard
-                <span class="right badge badge-danger">New</span>
               </p>
             </router-link>
           </li>
@@ -105,7 +104,6 @@
               <i class="nav-icon fas fa-user-alt orange"></i>
               <p>
                 Profile
-                <span class="right badge badge-danger">New</span>
               </p>
             </router-link>
           </li>
